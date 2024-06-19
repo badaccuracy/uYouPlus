@@ -37,7 +37,7 @@ $(TWEAK_NAME)_EMBED_EXTENSIONS = $(wildcard Extensions/*.appex)
 
 include $(THEOS)/makefiles/common.mk
 ifneq ($(JAILBROKEN),1)
-SUBPROJECTS += Tweaks/Alderis Tweaks/FLEXing/libflex Tweaks/iSponsorBlock Tweaks/YouPiP Tweaks/YTABConfig Tweaks/YTVideoOverlay Tweaks/YouQuality Tweaks/IAmYouTube Tweaks/YTClassicVideoQuality Tweaks/NoYTPremium Tweaks/YouTube-X
+SUBPROJECTS += Tweaks/Alderis Tweaks/FLEXing/libflex Tweaks/iSponsorBlock Tweaks/YouPiP Tweaks/YTABConfig Tweaks/YouQuality Tweaks/IAmYouTube Tweaks/YTClassicVideoQuality Tweaks/NoYTPremium Tweaks/YouTube-X
 include $(THEOS_MAKE_PATH)/aggregate.mk
 endif
 include $(THEOS_MAKE_PATH)/tweak.mk
